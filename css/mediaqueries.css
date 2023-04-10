@@ -1,0 +1,175 @@
+@media (max-width: 1850px){
+    section{
+        padding: 0px 200px;
+    }
+    #navbar{
+        padding: 0px 200px;
+    }
+
+
+}
+
+@media (max-width: 1800px){
+    h1, .h1{
+        font-size: 68pt;
+    }
+    h2, .h2{
+        font-size: 34pt;
+    }
+    .typed-cursor {
+        font-size: 68pt;
+    }
+    #profile-picture{
+        width: 475px;
+    }
+}
+
+@media (max-width: 1650px){
+    h1, .h1{
+        font-size: 62pt;
+    }
+    h2, .h2{
+        font-size: 30pt;
+    }
+    .typed-cursor {
+        font-size: 62pt;
+    }
+    #profile-picture{
+        width: 435px;
+    }
+
+}
+
+@media (max-width: 1550px){
+    h1, .h1{
+        font-size: 60pt;
+    }
+
+    .typed-cursor {
+        font-size: 68pt;
+    }
+    #profile-picture{
+        width: 410px;
+    }
+}
+
+@media (max-width: 1450px){
+    h1, .h1{
+        font-size: 55pt;
+    }
+    h2, .h2{
+        font-size: 28pt;
+    }
+    .typed-cursor {
+        font-size: 55pt;
+    }
+    #profile-picture{
+        width: 380px;
+    }
+}
+
+@media (max-width: 1350px){
+    section{
+        padding: 0px 150px;
+    }
+    #navbar{
+        padding: 0px 150px;
+    }
+    h1, .h1{
+        font-size: 50pt;
+    }
+    h2, .h2{
+        font-size: 26pt;
+    }
+    .typed-cursor {
+        font-size: 50pt;
+    }
+    #profile-picture{
+        width: 355px;
+    }
+}
+
+@media (max-width: 1200px){
+    body{
+        display: block;
+    }
+    title{
+        display: none;
+    }
+    section{
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .section-left{
+        padding-top:30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    h1, .h1{
+        font-size: 45pt;
+    }
+    h2, .h2{
+        font-size: 22pt;
+    }
+    .typed-cursor {
+        font-size: 50pt;
+    }
+    #profile-picture{
+        width: 315px;
+    }
+}
+
+@media (max-width: 900px){
+    section{
+        padding: 0px 100px;
+    }
+    #navbar{
+        padding: 0px 100px;
+    }
+}
+
+@media (max-width: 794px){
+    section{
+        padding: 0px 100px;
+    }
+    #navbar{
+        padding: 0px 100px;
+    }
+}
+
+@media (max-width: 650px){
+    section{
+        padding: 0px 50px;
+    }
+    #navbar{
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width: 550px){
+    section{
+        padding: 0px 50px;
+    }
+    #navbar{
+        padding: 25px 50px;
+    }
+    h1, .h1{
+        font-size: 32pt;
+    }
+    h2, .h2{
+        font-size: 18pt;
+    }
+    .typed-cursor {
+        font-size: 32pt;
+    }
+    #profile-picture{
+        width: 250px;
+    }
+    #logo{
+        height: 25px;
+    }
+}
