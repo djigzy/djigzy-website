@@ -1,7 +1,7 @@
 let activePage = window.location.href;
 let test = window.location.pathname;
 
-const navbarLinks = document.querySelectorAll(".navbar-links > li > a")
+const navbarLinks = document.querySelectorAll(".navbar-links a")
 const sections = document.querySelectorAll("section");
 
 navbarLinks.forEach(link =>{

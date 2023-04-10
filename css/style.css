@@ -43,7 +43,7 @@ html{
 }
 
 body{
-    background-color: var(--color-accent-1);
+    background-color: var(--color-white);
 }
 
 
@@ -153,6 +153,7 @@ li{
     border-top: 3px solid var(--color-accent-1);
     display:flex;
 }
+
 
 
 .social-media > li > a > svg:hover{
@@ -280,7 +281,7 @@ a:hover{
 	}
 }
 
-@keyframes navbar-item-fade-in{
+@keyframes navbar-item-fade{
     from{
         opacity: 0;
         transform: translateY(50px);
@@ -291,16 +292,6 @@ a:hover{
     }
 }
 
-@keyframes navbar-item-fade-out{
-    from{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-    to{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-}
 
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);

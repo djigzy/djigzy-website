@@ -3,16 +3,33 @@ const navbarColor = document.querySelector("#navbar");
 const logoColor = document.querySelector("#logo");
 const burgerColor = document.querySelectorAll(".burger div");
 const burger = document.querySelector(".burger");
+const navbar = document.querySelector(".navbar-items");
+
+
 
 
 
 
 const navbarSlide = () => {
-    const navbar = document.querySelector(".navbar-items");
     const navbarItems = document.querySelectorAll(".navbar-items li");
 
     // Set nav active status with boolean
 
+    navbar.addEventListener("click", () => {
+        navbar.style.transform = "transform: translateX(0%)";
+        burger.classList.toggle('toggle');
+        navbar.classList.toggle("navbar-active");
+        document.body.classList.toggle('lock-scroll');
+        console.log("test2");
+        navbarItems.forEach((link)=>{
+            if(link.style.animation) {
+                link.style.animation ="";
+            } else {
+                link.style.animation = `navbar-item-fade 0.5s ease forwards`;
+            }
+        });
+    })
+    
     burger.addEventListener("click", ()=>{
         
         let isActive = false;
@@ -29,13 +46,15 @@ const navbarSlide = () => {
             if(link.style.animation) {
                 link.style.animation ="";
             } else {
-                link.style.animation = `navbar-item-fade-in 0.5s ease forwards`;
+                link.style.animation = `navbar-item-fade 0.5s ease forwards`;
             }
         });
         //Burger animation
         burger.classList.toggle('toggle');
         
     });
+
+
 
 }
 navbarSlide();
@@ -169,3 +188,5 @@ burger.addEventListener('mouseout',() => {
         });
     }
 });
+
+
