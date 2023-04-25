@@ -1,3 +1,3 @@
 # djigzy-website
 
-ipetrovic.com
+https://www.ipetrovic.com
